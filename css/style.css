@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+	background-color:black;
+	overflow:auto;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0; 
+	padding: 20px;
+	
+	/*width: 60px;*/
+	float: right;
+	text-decoration-color: black;
+
+}
+
+nav li {
+	float:left;
+}
+li a {
+	/*display: block;*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+	color: #FFF;
+}
+
+nav h2 {
+	float: left;
+	text-align: center;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+/* This col-2 class lets you create two columns within a row */
+.col-2 {
+  width: 33.33%;
+  float: left;
+}
+
+/* This col-3 class lets you create three columns within a row */
+.col-3 {
+  width: 33.33%;
+  float: left;
+}
+
+
+.col-3 img {
+  width:100%;
+}
